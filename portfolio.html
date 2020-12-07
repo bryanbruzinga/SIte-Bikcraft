@@ -2,17 +2,27 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <title>BikCraft - Conheça o portfólio de clientes</title>
+
+    <meta name="description" content="Compre a sua bicicleta personalizada na Bikcraft. Possúimos modelos Passeio, Retrô e Esporte.">
+
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="BikCraft - Conheça o portfólio de clientes"/>
+    <meta property="og:description" content="Compre a sua bicicleta personalizada na Bikcraft. Possúimos modelos Passeio, Retrô e Esporte."/>
+    <meta property="og:url" content="http://www.bikcraft.com/portfolio.html"/>
+    <meta property="og:image" content="http://www.bikcraft.com/img/og-image.png"/>
+
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/grid.css">
+    
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/portfolio.css">
-    <link rel="stylesheet" href="css/responsivo.css">
+
     <script src="./js/simple-slide.js" defer></script>
+    <script src="js/simple-anime.js" defer></script>
     <script src="./js/script.js" defer></script>
     <script>document.documentElement.classList.add("js")</script>
-    <title>BikCraft - Portfólio</title>
+    
 </head>
 <body>
 
@@ -42,26 +52,26 @@
 
     <section class="introducao-interna interna_portfolio">
         <div class="container">
-            <h1>Portfólio</h1>
-            <p>Conheça os projetos que amamos mostrar</p>
+            <h1 data-anime="400" class="fadeInDown">Portfólio</h1>
+            <p data-anime="800" class="fadeInDown">Conheça os projetos que amamos mostrar</p>
          
         </div>
     </section>
 
-    <section class="container" data-slide="quote">
+    <div class="container fadeInDown" data-slide="quote" data-anime="1200">
         <blockquote class="quote_clientes">
-            <p>"No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na formulação da gestão inovadora da qual fazemos parte."</p>
+            <p>"Compre a sua bicicleta personalizada na Bikcraft. Possúimos modelos Passeio, Retrô e Esporte."</p>
             <cite>Barbara Moss</cite>
         </blockquote>
         <blockquote class="quote_clientes">
-            <p>"lorem ipsum dolor sit amet, consectetur adip"</p>
+            <p>"Compre a sua bicicleta personalizada na Bikcraft. Possúimos modelos Passeio, Retrô e Esporte."</p>
             <cite>CataUrso Salvatore</cite>
         </blockquote>
         <blockquote class="quote_clientes">
-            <p>"lorem ipsum dolor sit"</p>
+            <p>"Compre a sua bicicleta personalizada na Bikcraft. Possúimos modelos Passeio, Retrô e Esporte."</p>
             <cite>Smith Weberjegermanjanson</cite>
         </blockquote>
-    </section>
+    </div>
 
     <section class="portfolio">
         <div class="container" data-slide="portfolio">
@@ -91,12 +101,12 @@
         </div>
     </section>
 
-    <section class="quebra">
+    <div class="quebra">
         <blockquote class="quote-externo container">
             <p>"O verdadeiro segredo da felicidade está me ter um genuíno interesse por todos os detalhes da vida cotidiana."</p>
             <cite>William Morris</cite>
         </blockquote>
-    </section>
+    </div>
 
     <footer>
         <div class="footer">
